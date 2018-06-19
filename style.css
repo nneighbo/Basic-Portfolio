@@ -1,0 +1,17 @@
+#navBar {
+    width: 100vw;
+    height: 5vh;
+    background-color: white;
+    
+}
+
+#name {
+   text-align: center;
+    color: white;
+   background-color: #005B90;
+   position: absolute;
+   width: 250px;
+   height: 75px;   
+   top: -25px;
+   left: 250px;
+}
