@@ -59,29 +59,34 @@ a {
 }
 
 #para {
-    
+    position: relative;
 }
 
 #topText {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    overflow: scroll;   
-    margin: 0px 0px 0px 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    margin: 0px 0px 0px 5px;
+    line-height: 20px;
 }
 
-.text {
+#text {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    overflow: scroll;   
-    margin: 0px 0px 0px 15px;
+    margin-left: ;
+    line-height: 25px;
 }
 
 #bottomText {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    overflow: scroll;   
-    margin: 0px 0px 0px 15px;
+    line-height: 25px; 
+    margin: 10px 0px 0px 5px;
 }
 
-#image {
-  
+#image {    
+    float: left;
+    margin-right: 10px;
+}
+
+#proj1 {
+ 
 }
 
 #footerDiv {
