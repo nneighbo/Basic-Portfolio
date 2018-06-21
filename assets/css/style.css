@@ -33,7 +33,7 @@ body  {
     right: 17%;
 }
 
-a {
+.headerLinks {
     color: #666;
 }
 
@@ -60,6 +60,8 @@ a {
 
 #para {
     position: relative;
+    width: 960px;
+    height: 800px;
 }
 
 #topText {
@@ -70,7 +72,7 @@ a {
 
 #text {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin-left: ;
+    color: #777777;
     line-height: 25px;
 }
 
@@ -78,6 +80,7 @@ a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 25px; 
     margin: 10px 0px 0px 5px;
+    color: #777777;
 }
 
 #image {    
@@ -85,8 +88,13 @@ a {
     margin-right: 10px;
 }
 
-#proj1 {
- 
+h3 a {
+    color: #777777;
+}
+
+.contacth3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5
 }
 
 #footerDiv {
@@ -104,4 +112,65 @@ a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10px;
     padding: 10px;
-}   
+}  
+
+#proj1 {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    margin-top: 40px;
+}
+
+#proj2 {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    margin-top: 20px;
+}
+
+#proj3 {
+    position: absolute;
+    left: 5%;
+    top: 0px;
+}
+
+#proj4 {
+    position: absolute;
+    right: 5%;
+    top: 0px;
+    
+}
+
+#proj5 {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    margin-top: 20px;
+}
+
+#proj6 {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    margin-top: 40px;
+}
+
+#proj7 {
+    position: absolute;
+    right: 40%;
+    top: 0%;
+}
+
+#proj8 {
+    position: absolute;
+    right: 40%;
+    top: 25%;
+    margin-top: 20px;
+}
+
+#proj9 {
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    margin-top: 40px;
+}
